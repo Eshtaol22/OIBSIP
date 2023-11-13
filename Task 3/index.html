@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Temperature Converter</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Merriweather+Sans&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+        <div class="converter">
+            <h2><b>Temperature Converter</b></h2>
+            <div class="all">
+                    <div class="from">
+                        <label>From: </label>
+                        <select id="input1">
+                            <option value="cel">Celsius</option>
+                            <option value="kel">Kelvin</option>
+                            <option value="fah">Fahrenheit</option>
+                        </select>
+                    </div>
+                    <div class="from">
+                        <label>To: </label>
+                        <select id="input2">
+                            <option value="cel1">Celsius</option>
+                            <option value="kel1">Kelvin</option>
+                            <option value="fah1">Fahrenheit</option>
+                        </select>
+                    </div>
+                    <div class="deg">
+                        <label>Degrees: </label>
+                        <input class="value" type="number" placeholder="It must be a number">
+                        <input class="btn1" type="button" value="Convert">
+                    </div>
+                    <div class="deg">
+                        <label>Result:  </label>
+                        <input class="value2" type="text" name="" value=" ">
+                        <br>
+                        <input class="btn2" type="button" value="Reset">
+                    </div>
+            </div>
+        </div>
+    </body>
+</html>
